@@ -4,9 +4,13 @@
 # Copyright (C) 2020 HANA-CI Build Project (@nicklas373)
 # SPDX-License-Identifier: GPL-3.0-or-later
 
+# Dirty Workaround // YES
+TOKEN=${token}
+echo $TOKEN
+
 # Cloning Kernel Repository
 # Only enable this if want to compile lavender
-git clone --depth=1 -b fusion-nothing https://Nicklas373:$git_token@github.com/Nicklas373/kernel_xiaomi_lavender-4.4 .
+git clone --depth=1 -b fusion-nothing https://Nicklas373:$token@github.com/Nicklas373/kernel_xiaomi_lavender-4.4 .
 
 # Clone compiler script & execute it
 wget --output-document=.ci https://raw.githubusercontent.com/Nicklas373/CI/CI/ci
