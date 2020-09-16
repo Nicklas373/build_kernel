@@ -5,7 +5,7 @@
 # SPDX-License-Identifier: GPL-3.0-or-later
 
 # Dirty Workaround // YES
-# TOKEN=${token}
+TOKEN=${token}
 echo $TOKEN
 
 # Cloning Kernel Repository
