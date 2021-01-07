@@ -5,8 +5,8 @@
 # SPDX-License-Identifier: GPL-3.0-or-later
 
 # Dirty Workaround // YES
-# TOKEN=${token}
-# echo $TOKEN
+TOKEN=${token}
+echo $TOKEN
 
 # Cloning Kernel Repository
 # Only enable this if want to compile lavender
